@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="./styling.css" />
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1><strong>What do you need to buy?</strong></h1>
+    <main>
+        <!-- Grocery list 1st fieldset -->
+        <form class="grocery-list">
+        <legend class="newFont">Grocery</legend>
+        <fieldset>
+            <input
+            type="text"
+            class="item-list"
+            list="grocery-options"
+            placeholder="Name of the item"
+        />
+        <button type="button" id="add-entry" class="bubbly-button-grocery">Add Entry</button>
+    </fieldset>
+    </form>
+
+    <!-- Hidden fieldsets 2nd fieldset -->
+    
+    
+    <button type="button" id="view-shopping-list" class="bubbly-button" onclick="window.location.href='index2.html'">View your shopping list</button>
+    
+        
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
